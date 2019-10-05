@@ -1,49 +1,74 @@
-*{
+        * {
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(https://res.cloudinary.com/kngkay/image/upload/v1569408433/kngkay/Background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-body{
-background-image: url(https://res.cloudinary.com/kngkay/image/upload/v1569408433/kngkay/Background.png);
-height: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-} 
+.cover {
+    padding: 10%;
+    align-content: center;
+}
 
-.cover{
-     padding: 10%;
-     align-content: center;
-     
- }
- 
- nav{
-     margin-top: 20px;
- }
- .p1{
-     font-family:'Lucida Sans';
-     font-size: 20px;
-     color: #0EAFF4;
- 
- }
- .p{
-     font-family:'Lucida Sans';
-     font-size: 15px;
-     color: #FEF9F9;
- }
- .p3{
-     font-family:'Lucida Sans';
-     font-size: 20px;
-     border: 1px solid #0EAFF4;
-     border-radius: 20px;
-     padding: 5px;
- }
- 
- h1,h2,h3,h4,h6{
-    font-family:'Lucida Sans';
+nav {
+    margin-top: 20px;
+}
+
+.p1 {
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    color: #0EAFF4;
+}
+
+.p {
+    font-family: 'Lucida Sans';
+    font-size: 15px;
     color: #FEF9F9;
- }
+}
+
+.p3 {
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    border: 1px solid #0EAFF4;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: 'Lucida Sans';
+    color: #FEF9F9;
+}
 
 
+/* Extra small devices (phones, 600px and down) */
 
-
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: 100%;
+    }
+    .navbar>.container {
+        order: 3;
+        margin-top: 10px;
+        margin: 5px margin-bottom: 15px font-size: 1.5em width: 100%
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .navbar {
+            flex-direction: column;
+            height: 100%;
+        }
+        .navbar>.container {
+            order: 3;
+            margin-top: 10px;
+            margin: 5px margin-bottom: 15px font-size: 1.5em width: 100%
+        }
