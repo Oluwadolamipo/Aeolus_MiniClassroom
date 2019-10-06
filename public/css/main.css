@@ -61,6 +61,11 @@ h6 {
         margin-top: 10px;
         margin: 5px margin-bottom: 15px font-size: 1.5em width: 100%
     }
+    .navbar-toggler {
+        order: 1;
+        margin-top: 10px;
+        margin: 5px margin-bottom: 15px font-size: 1.5em width: 100%
+    }
     /* Small devices (portrait tablets and large phones, 600px and up) */
     @media only screen and (min-width: 600px) {
         .navbar {
@@ -69,6 +74,11 @@ h6 {
         }
         .navbar>.container {
             order: 3;
+            margin-top: 10px;
+            margin: 5px margin-bottom: 15px font-size: 1.5em width: 100%
+        }
+        .navbar-toggler {
+            order: 1;
             margin-top: 10px;
             margin: 5px margin-bottom: 15px font-size: 1.5em width: 100%
         }
